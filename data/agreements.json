@@ -1,0 +1,42 @@
+{
+  "session": "每条 session 为一次可观察的共同机会。participants 为观察到的最多同行人数，不推出每条动作都能归到个人。分钟从每次入场开始。",
+  "mode_contract": {
+    "讲解": [
+      "讲解"
+    ],
+    "联绘": [
+      "联绘"
+    ],
+    "轻量": [
+      "轻量"
+    ],
+    "辅助": [
+      "辅助",
+      "符合同时有语音和对比读屏的讲解"
+    ]
+  },
+  "evaluation": {
+    "holdout_venues": [
+      "馆4"
+    ],
+    "holdout_periods": [
+      8,
+      9
+    ],
+    "target_min_group_stability": 0.7,
+    "retained_opportunity_min": 0.9,
+    "minimum_mode_support_count": 14,
+    "max_switches_per_venue": 2
+  },
+  "privacy": {
+    "reserve_partner_in_venues": [
+      "馆1",
+      "馆2"
+    ],
+    "do_not_add_sensor_to": [
+      "馆3",
+      "馆4"
+    ]
+  },
+  "live": "已公告指该期本馆应保持的服务模式。试点未生效不改变历史。现场换硬件会改变可见信号，不能用历史全感知同代替。"
+}

@@ -1,0 +1,4 @@
+record,case,period,venue,sensors,actual_mode,received
+L1,C2,10,馆1,触屏|手势|停留,讲解|联绘,10
+L2,C4,10,馆3,停留,讲解|轻量,10
+L3,C5,10,馆4,停留|手势,辅助,11

@@ -1,0 +1,92 @@
+{
+  "tables": {
+    "sessions": [
+      "session",
+      "venue",
+      "period",
+      "participants",
+      "identity",
+      "minutes",
+      "observation"
+    ],
+    "sensor_events": [
+      "session",
+      "ordinal",
+      "minute",
+      "signal",
+      "mode",
+      "participant",
+      "step"
+    ],
+    "profile": [
+      "venue",
+      "period",
+      "visible",
+      "available",
+      "licence_group",
+      "partition"
+    ],
+    "interviews": [
+      "session",
+      "reviewer",
+      "actual_depth",
+      "actual_joint",
+      "assistance",
+      "source",
+      "received_period"
+    ],
+    "service_orders": [
+      "order",
+      "venue",
+      "period",
+      "mode",
+      "committed",
+      "eligible_groups",
+      "status"
+    ],
+    "change_candidates": [
+      "case",
+      "venue",
+      "period",
+      "retain",
+      "visible",
+      "supports_aux"
+    ],
+    "live_receipt": [
+      "record",
+      "case",
+      "period",
+      "venue",
+      "sensors",
+      "actual_mode",
+      "received"
+    ]
+  },
+  "references": [
+    [
+      "sessions",
+      "session",
+      "sensor_events",
+      "session"
+    ],
+    [
+      "sessions",
+      "session",
+      "interviews",
+      "session"
+    ],
+    [
+      "change_candidates",
+      "case",
+      "live_receipt",
+      "case"
+    ]
+  ],
+  "agreement_keys": [
+    "session",
+    "mode_contract",
+    "evaluation",
+    "privacy",
+    "live"
+  ]
+}

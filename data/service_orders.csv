@@ -1,0 +1,6 @@
+order,venue,period,mode,committed,eligible_groups,status
+S1,馆1,10,辅助,1,18,已公告
+S2,馆2,10,联绘,1,25,已公告
+S3,馆3,10,讲解,0,20,可调整
+S4,馆4,10,讲解,1,20,已公告
+S5,馆3,11,轻量,0,20,拟试行
